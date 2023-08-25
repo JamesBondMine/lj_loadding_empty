@@ -87,9 +87,6 @@ class _MyHomePageState extends State<MyHomePage> {
               color: Colors.green.withAlpha(100),
               width: 300,height: 500,
             child: const LoaddingView(),),
-            const Text(
-              'You have pushed the button this many times:',
-            ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,

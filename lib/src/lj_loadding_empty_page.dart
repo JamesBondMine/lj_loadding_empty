@@ -134,3 +134,39 @@ class LoaddingViewState extends State<LoaddingView>
       );
   }
 }
+
+
+class EmptyView extends StatelessWidget {
+
+  final String desc;
+
+  final TextStyle? style;
+
+  final Widget? child;
+
+  EmptyView({Key? key, this.desc = '', this.style, this.child}): super(key: key);
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(20),
+      alignment: Alignment.topCenter,
+      child:Column(
+        children: [
+           Image.asset(
+        "assets/images/NullstatusEmpty.png",
+        width: MediaQuery.of(context).size.width*2/3,
+        fit: BoxFit.cover,
+      ),
+      child ?? Container(),
+      desc.isEmpty ? Container() : Text(desc,
+      style: style ?? TextStyle(
+                      fontSize: 18,
+                      color: Colors.grey,
+                      fontWeight: FontWeight.w600))
+        ],
+      )
+    );
+  }
+}
