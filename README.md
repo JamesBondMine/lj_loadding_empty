@@ -9,7 +9,7 @@ lj_loadding_empty can load a animation in dataloadding status.
 ## Getting started
 
 ```dart
-lj_loadding_empty: ^1.2.0
+lj_loadding_empty: ^1.4.0
 ```
 
 ## Usage
@@ -45,12 +45,22 @@ lj_loadding_empty support loadding by loaddingdata status
 
 loadding效果
 
-<div style="width=40%;float:left;margin-right: 10px">
-  <img src="./lib/assets/images/load.png">
-</div>
+<table>
+<tr>
+<td valign="center"><img src="https://github.com/JamesBondMine/lj_loadding_empty/blob/main/lib/assets/images/load.png?raw=true"> 
+</td>
+<td valign="center"><img src="https://github.com/JamesBondMine/lj_loadding_empty/blob/main/lib/assets/images/load.png?raw=true"> 
+</td>
+</tr>
+</table>
 
 却省图效果
 
-<div style="width=40%;float:left;margin-right: 10px">
-  <img src="./lib/assets/images/empty.png">
-</div>
+<table>
+<tr>
+<td valign="center"><img src="https://github.com/JamesBondMine/lj_loadding_empty/blob/main/lib/assets/images/empty.png?raw=true"> 
+</td>
+<td valign="center"><img src="https://github.com/JamesBondMine/lj_loadding_empty/blob/main/lib/assets/images/empty.png?raw=true"> 
+</td>
+</tr>
+</table>
